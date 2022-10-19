@@ -19,7 +19,7 @@ echo
 mkdir -p /etc/ec3/templates
 cp -rf github.com/orviz/saps-deploy-test/ec3_recipe/* /etc/ec3/templates
 cp ec3_recipe/kubernetes-brazil.radl /etc/ec3/templates
-ec3 launch sqaaas_ec3_cluster kubernetes-brazil -a "/im/auth.dat" -u https://appsgrycap.i3m.upv.es:31443/im/ -y
+ec3 launch sqaaas_ec3_cluster kubernetes-brazil nfs-saps saps -a "/im/auth.dat" -u https://appsgrycap.i3m.upv.es:31443/im/ -y
 ec3 show sqaaas_ec3_cluster -r
 ec3 destroy sqaaas_ec3_cluster --force -y
 )

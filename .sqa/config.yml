@@ -21,6 +21,6 @@ sqa_criteria:
     repos:
       github.com/orviz/saps-deploy-test ec3_client:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-white-quetzal.sh
-        container: svcqc.dep_queasy-green-cow
+        - /usr/bin/env sh .sqa/script.pretty-sangria-hound.sh
+        container: svcqc.dep_foggy-gamboge-quokka
 timeout: 1800
