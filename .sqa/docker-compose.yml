@@ -1,5 +1,5 @@
 services:
-  svcqc.dep_muggy-cream-bordeaux:
+  svcqc.dep_queasy-green-cow:
     entrypoint:
     - /bin/sleep
     - infinity
