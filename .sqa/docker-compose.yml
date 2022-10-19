@@ -1,5 +1,5 @@
 services:
-  svcqc.dep_foggy-gamboge-quokka:
+  svcqc.dep_nippy-cobalt-wasp:
     entrypoint:
     - /bin/sleep
     - infinity
