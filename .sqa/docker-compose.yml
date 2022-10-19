@@ -1,5 +1,5 @@
 services:
-  svcqc.dep_nippy-cobalt-wasp:
+  svcqc.dep_crabby-magenta-heron:
     entrypoint:
     - /bin/sleep
     - infinity

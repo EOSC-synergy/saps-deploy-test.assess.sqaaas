@@ -3,7 +3,7 @@ config:
   - id: upv_im_id
     password_var: IM_PASS
     username_var: IM_USER
-  - id: ifca_openstack_id
+  - id: incd_openstack_id
     password_var: OPENSTACK_PASS
     username_var: OPENSTACK_USER
   project_repos:
@@ -21,6 +21,6 @@ sqa_criteria:
     repos:
       github.com/orviz/saps-deploy-test ec3_client:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-lemon-cassowary.sh
-        container: svcqc.dep_nippy-cobalt-wasp
+        - /usr/bin/env sh .sqa/script.frumpy-puce-sparrow.sh
+        container: svcqc.dep_crabby-magenta-heron
 timeout: 1800

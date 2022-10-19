@@ -29,7 +29,7 @@ system front (
   disk.0.applications contains (
     name = 'ansible.modules.grycap.clues'
   ) and
-  disk.0.image.url = 'ost://api.cloud.ifca.es/a309f7ac-2198-4ecf-9fb9-ff68c2197143'
+  disk.0.image.url = 'ost://stratus.ncg.ingrid.pt/97624935-200f-4670-9ea8-c65282adbe56'
 )
 
 configure front (
@@ -74,7 +74,7 @@ system wn (
   memory.size >= 4g and
   net_interface.0.connection = 'private' and
   ec3_node_type = 'wn' and
-  disk.0.image.url = 'ost://api.cloud.ifca.es/a309f7ac-2198-4ecf-9fb9-ff68c2197143'
+  disk.0.image.url = 'ost://stratus.ncg.ingrid.pt/97624935-200f-4670-9ea8-c65282adbe56'
 )
 
 configure wn (
